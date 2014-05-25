@@ -19,7 +19,7 @@ function test2()
 
 function test3()
 {
-	echo __MethOD__ . " :{$GLOBALS['x']}", PHP_EOL;
+	echo __MethOD__ . " : {$GLOBALS['x']}", PHP_EOL;
 }
 
 
