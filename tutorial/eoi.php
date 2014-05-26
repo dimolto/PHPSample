@@ -8,3 +8,8 @@ EOI;
 
 echo $message, PHP_EOL;
 
+$message2 = <<<EOI
+oneline
+EOI;
+echo $message2, PHP_EOL;
+
