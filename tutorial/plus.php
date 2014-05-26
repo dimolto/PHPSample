@@ -8,6 +8,4 @@ echo "$x + $y = {$c}", PHP_EOL;
 $number_1 = 3;
 $number_2 = 2;
 $answer = $number_1 + $number_2;
-echo "{$answer}", PHP_EOL
-
-?>
+echo "{$answer}", PHP_EOL;
