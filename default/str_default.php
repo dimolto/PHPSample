@@ -12,7 +12,10 @@ echo number_format($num, 2), PHP_EOL; // 1,000,000.00
 echo number_format($num, 3, '^', '&'), PHP_EOL; // 1&000&000^000
 
 $str_length = strlen($str);
-echo "strlen($str) $str_length";
+echo "strlen($str) $str_length", PHP_EOL;
+$jp_str = "あいうえお";
+echo strlen($jp_str), PHP_EOL; // 15
+echo mb_strlen($jp_str, "UTF-8"), PHP_EOL; // 5
 
 
 
